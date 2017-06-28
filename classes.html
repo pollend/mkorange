@@ -1,0 +1,345 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="MNML Designs">
+
+    <title>Michelle's Kitchen</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="main.css" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico">
+    <!-- Custom CSS -->
+    <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' rel='stylesheet'/>
+    <style>
+        .main-bg {
+            /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fffcfc+45,e5ebee+95,e5ebee+95,d7dee3+96,f5f7f9+100 */
+            background: rgb(255, 252, 252); /* Old browsers */
+            background: -moz-linear-gradient(left, rgba(255, 252, 252, 1) 45%, rgba(229, 235, 238, 1) 95%, rgba(229, 235, 238, 1) 95%, rgba(215, 222, 227, 1) 96%, rgba(245, 247, 249, 1) 100%); /* FF3.6-15 */
+            background: -webkit-linear-gradient(left, rgba(255, 252, 252, 1) 45%, rgba(229, 235, 238, 1) 95%, rgba(229, 235, 238, 1) 95%, rgba(215, 222, 227, 1) 96%, rgba(245, 247, 249, 1) 100%); /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to right, rgba(255, 252, 252, 1) 45%, rgba(229, 235, 238, 1) 95%, rgba(229, 235, 238, 1) 95%, rgba(215, 222, 227, 1) 96%, rgba(245, 247, 249, 1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fffcfc', endColorstr='#f5f7f9', GradientType=1); /* IE6-9 */
+
+            color: black;
+
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+            font-family: 'Parisienne', cursive;
+        }
+
+        @media screen and (max-width: 767px) {
+
+        }
+
+    </style>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <script>
+        $('.carousel').carousel();
+    </script>
+
+    <!-- Calender-->
+    <script id="setmore_script" type="text/javascript"
+            src="https://my.setmore.com/js/iframe/setmore_iframe.js"></script>
+</head>
+
+<body>
+
+<div class="carousel slide carousel-fade" data-ride="carousel">
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+        </div>
+        <div class="item">
+        </div>
+        <div class="item">
+        </div>
+        <div class="item">
+        </div>
+    </div>
+</div>
+<h1 id="logo">Michelle's Kitchen</h1>
+<!-- Navigation -->
+<nav class="navbar navbar-static-top" role="navigation">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" style="padding-top:0;margin-top:0">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="glyphicon glyphicon-download" style="font-size: 38px;"></span>
+            </button>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav horizontal-list-ul">
+                <li class="horizontal-list">
+                    <a href="#" class="btn-nav" data-toggle="modal" data-target="#myModal">RESERVATIONS</a>
+                </li>
+                <li class="horizontal-list">
+                    <a href="/contact.html" class="btn-nav">CONTACT</a>
+                </li>
+                <li class="horizontal-list">
+                    <a href="/classes.html" class="btn-nav">CLASSES</a>
+                </li>
+                <li class="horizontal-list">
+                    <a href="/about.html" class="btn-nav">ABOUT</a>
+                </li>
+                <li class="horizontal-list">
+                    <a href="/index.html" class="btn-nav">HOME</a>
+                </li>
+            </ul
+                    <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+</nav>
+<!-- Page Content -->
+<div class="container-fluid">
+
+    <div style="position:fixed;bottom:12px;">
+        <a class="btn icon-btn btn-primary " data-toggle="modal" data-target="#gcModal">
+            <span class="glyphicon btn-glyphicon glyphicon-gift img-circle text-primary" style="color:white;"></span>Gift Cards</a>
+    </div>
+    <div style="position:fixed;bottom:50px;">
+        <a class="btn icon-btn" href="https://www.facebook.com/michelleskitchenorange/" target="_blank" >
+            <span class="glyphicon btn-glyphicon img-circle text-primary fa fa-facebook fa-lg" style="color:white;"></span>
+        </a>
+    </div>
+
+    <div style="position:fixed;bottom:90px;">
+        <a class="btn icon-btn" href="https://www.instagram.com/Michelles.teaching.kitchen/" target="_blank">
+            <span class="glyphicon btn-glyphicon img-circle text-primary fa fa-instagram fa-lg" style="color:white;"></span>
+        </a>
+    </div>
+    <div id="gcModal" class="modal fade" role="dialog">
+        <div class="modal-dialog" style="">
+
+            <!-- Modal content-->
+            <div class="modal-content" style="color:black;background-color:#fecddf;">
+                <div class="modal-body" style="font-size:1.2em;">
+                    <h4 style="text-align:center; font-size:2em;font-family: 'Parisienne', cursive; text-align:center;">
+                        Michelle's Kitchen Gift Cards</h4>
+                    <h4 style="text-align:center; font-size:1em;padding:2vw 1vw;">Gift Cards of any denomination are
+                        available to purchase for friends and loved ones! Payments can be mailed via check or payed over
+                        the phone via credit card. (See contact page for details)</h4>
+                    <h4 style="text-align:center; font-size:1.5em;font-family: 'Parisienne', cursive;">"Cook for a man
+                        and he will eat for a day. Teach a man to cook and he will eat for a lifetime."</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+            <div>
+                <div class="panel panel-default" style="background-color:#192A55;border: solid 16px #3656A1; border-radius: 0;margin:3vw 5vw;-webkit-box-shadow: inset 0px 0px 10px 2px rgba(0,0,0,0.75);
+-moz-box-shadow: inset 0px 0px 10px 2px rgba(0,0,0,0.75);
+box-shadow: inset 0px 0px 10px 2px rgba(0,0,0,0.75);">
+                    <div class="panel-body text-center">
+                        <h4 style="font-family: 'Parisienne', cursive;font-size:2.2em;color:#eebc11;margin:.1em 0;">
+                            Autumn 2016</h4>
+                        <div class="sexy_line" style="margin-bottom:.2vw;"></div>
+                        Grab a group of friends! (Minimum 3 people, Maximum 6 people per class)
+                        <br><i>Choose a starter and entrée as a group</i>
+                        <div>
+                            <h4 style="margin-top:1.5vw !important;font-family: 'Parisienne', cursive;font-size:2.2em;color:#eebc11;margin:.1em 0;">
+                                Starters</h4>
+                            <div class="sexy_line"></div>
+                            <div class="btn-group" data-toggle="buttons" style="float:left; margin-left:3vw;width:95%;">
+                                <span class="glyphicon glyphicon-cutlery"
+                                      style="clear: left;float:left;top:7px;padding-left:3vw;font-size:.9em;"></span>
+                                <h4 style="float:left;font-family: 'Parisienne', cursive;font-size:2.2em;margin:0 1vw 0 1.2vw">
+                                    <!-- Begin editing after this line -->
+
+                                    Batavia Salad
+
+                                    <!-- Stop editing before this line -->
+
+                                </h4>
+                                <p style=" clear: left;margin-left:10%;display:block;float:left"><i>
+                                    <!-- Begin editing after this line -->
+
+                                    Red Leaf, Radicchio, Candied Pecans, Feta, Canadian Maple-Balsamic Vinaigrette
+
+                                    <!-- Stop editing before this line -->
+                                </i>
+                                </p>
+                                <span class="glyphicon glyphicon-cutlery"
+                                      style="clear: left;float:left;top:7px;padding-left:3vw;font-size:.9em;"></span>
+                                <h4 style="float:left;font-family: 'Parisienne', cursive;font-size:2.2em;margin:0 1vw 0 1.2vw">
+                                    <!-- Begin editing after this line -->
+
+                                    Pom Pom Salad
+
+                                    <!-- Stop editing before this line -->
+                                </h4>
+                                <p style=" clear: left;margin-left:10%;display:block;float:left"><i>
+                                    <!-- Begin editing after this line -->
+
+                                    Baby Arugula, Basil, Parmigiano-Reggiano, Toasted Pecans, Pomegranate Vinaigrette
+
+                                    <!-- Stop editing before this line -->
+                                </p>
+                                <span class="glyphicon glyphicon-cutlery"
+                                      style="clear: left;float:left;top:7px;padding-left:3vw;font-size:.9em;"></span>
+                                <h4 style="float:left;font-family: 'Parisienne', cursive;font-size:2.2em;margin:0 1vw 0 1.2vw">
+                                    <!-- Begin editing after this line -->
+
+                                    Pumpkin Harvest Soup
+
+                                    <!-- Stop editing before this line -->
+                                </h4>
+                                <p style=" clear: left;margin-left:10%;display:block;float:left"><i>
+                                    <!-- Begin editing after this line -->
+
+                                    Roasted Pumpkin, Chantilly Cream, Sage Infused Oil, Gruyere Crouton
+
+                                    <!-- Stop editing before this line -->
+                                </i>
+                                </p>
+                                <span class="glyphicon glyphicon-cutlery"
+                                      style="clear: left;float:left;top:7px;padding-left:3vw;font-size:.9em;"></span>
+                                <h4 style="float:left;font-family: 'Parisienne', cursive;font-size:2.2em;margin:0 1vw 0 1.2vw">
+                                    <!-- Begin editing after this line -->
+
+                                    Far East Wontons
+
+                                    <!-- Stop editing before this line -->
+                                </h4>
+                                <p style=" clear: left;margin-left:10%;display:block;float:left"><i>
+                                    <!-- Begin editing after this line -->
+
+                                    Crispy Cream Cheese Wontons, Sweet Chili Garlic Sauce, Microgreens
+
+                                    <!-- Stop editing before this line -->
+                                </i>
+                                </p>
+                            </div>
+                            <div style="clear:both;"></div>
+                        </div>
+                        <div style="clear:both;">
+                            <h4 style="margin-top:1.0vw !important;font-family: 'Parisienne', cursive;font-size:2.2em;color:#eebc11;margin:.1em 0;">
+                                Entrees</h4>
+                            <div class="sexy_line"></div>
+                            <div class="btn-group" data-toggle="buttons" style="float:left; margin-left:3vw;width:95%;">
+                                <span class="glyphicon glyphicon-cutlery"
+                                      style="clear: left;float:left;top:7px;padding-left:3vw;font-size:.9em;"></span>
+                                <h4 style="float:left;font-family: 'Parisienne', cursive;font-size:2.2em;margin:0 1vw 0 1.2vw">
+                                    <!-- Begin editing after this line -->
+
+                                    Pan-Roasted Breast of Chicken
+
+                                    <!-- Stop editing before this line -->
+                                </h4>
+                                <p style=" clear: left;margin-left:10%;display:block;float:left"><i>
+                                    <!-- Begin editing after this line -->
+
+                                    Pommes puree, garlic-thyme reduction sauce
+
+                                    <!-- Stop editing before this line -->
+                                </i>
+                                </p>
+                                <span class="glyphicon glyphicon-cutlery"
+                                      style="clear: left;float:left;top:7px;padding-left:3vw;font-size:.9em;"></span>
+                                <h4 style="float:left;font-family: 'Parisienne', cursive;font-size:2.2em;margin:0 1vw 0 1.2vw">
+                                    <!-- Begin editing after this line -->
+
+                                    Seared Atlantic Halibut
+
+                                    <!-- Stop editing before this line -->
+                                </h4>
+                                <p style=" clear: left;margin-left:10%;display:block;float:left"><i>
+                                    <!-- Begin editing after this line -->
+
+                                    Parmesan crusted cauliflower, hollandaise sauce, mango salsa
+
+                                    <!-- Stop editing before this line -->
+                                </i>
+                                </p>
+                                <span class="glyphicon glyphicon-cutlery"
+                                      style="clear: left;float:left;top:7px;padding-left:3vw;font-size:.9em;"></span>
+                                <h4 style="float:left;font-family: 'Parisienne', cursive;font-size:2.2em;margin:0 1vw 0 1.2vw">
+                                    <!-- Begin editing after this line -->
+
+                                    Butter-basted Rib Eye Steak
+
+                                    <!-- Stop editing before this line -->
+                                </h4>
+                                <p style=" clear: left;margin-left:10%;display:block;float:left"><i>
+                                    <!-- Begin editing after this line -->
+
+                                    Herb oven-roasted Yukon potatoes, Bordelaise sauce
+
+                                    <!-- Stop editing before this line -->
+                                </i>
+                                </p>
+                                <span class="glyphicon glyphicon-cutlery"
+                                      style="clear: left;float:left;top:7px;padding-left:3vw;font-size:.9em;"></span>
+                                <h4 style="float:left;font-family: 'Parisienne', cursive;font-size:2.2em;margin:0 1vw 0 1.2vw">
+                                    <!-- Begin editing after this line -->
+
+                                    Ricotta Gnocchi
+
+                                    <!-- Stop editing before this line -->
+                                </h4>
+                                <p style=" clear: left;margin-left:10%;display:block;float:left"><i>
+                                    <!-- Begin editing after this line -->
+
+                                    Fresh ricotta, San Marzano tomato sauce, pancetta crisp, Parmigiano-Reggiano
+
+                                    <!-- Stop editing before this line -->
+                                </i>
+                                </p>
+                            </div>
+                        </div>
+                        <p style="margin-bottom:0px;color:#eebc11;">Two courses and wine $105.00</p>
+                        <p style="margin-bottom:0px;color:#eebc11;">Watch for new menus, celebrating each seasonal
+                            bounty!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /.container -->
+
+<!-- jQuery Version 1.11.1 -->
+<script src="bootstrap/js/jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+</body>
+
+<div id="myModal" class="modal fade" role="dialog">
+    <div class="modal-dialog" style="">
+
+        <!-- Modal content-->
+        <div class="modal-content" style="color:black;background-color:#fecddf;">
+            <div class="modal-body" style="font-size:1.2em;">
+                <h4 style="text-align:center; font-size:2em;font-family: 'Parisienne', cursive; text-align:center;">
+                    Michelle's Kitchen Calendar</h4>
+                <img src="images/spoon.png"
+                     style="width:80%;display: block;margin-left: auto;margin-right: auto;padding:1vw 0;">
+                <h4 style="text-align:center; font-size:1.5em;font-family: 'Parisienne', cursive;">Available class
+                    times</h4>
+                <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=en.usa%23holiday%40group.v.calendar.google.com&amp;color=%23125A12&amp;ctz=America%2FLos_Angeles"
+                        style="border-width:0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
+                <script type="text/javascript" src="https://form.jotform.com/jsform/63299216659166"></script>
+            </div>
+        </div>
+    </div>
+</div>
+
+</html>

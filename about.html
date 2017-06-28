@@ -1,0 +1,274 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="MNML Designs">
+
+    <title>Michelle's Kitchen</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="main.css" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico">
+    <!-- Custom CSS -->
+    <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' rel='stylesheet'/>
+    <style>
+        .main-bg {
+            /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fffcfc+45,e5ebee+95,e5ebee+95,d7dee3+96,f5f7f9+100 */
+            background: rgb(255, 252, 252); /* Old browsers */
+            background: -moz-linear-gradient(left, rgba(255, 252, 252, 1) 45%, rgba(229, 235, 238, 1) 95%, rgba(229, 235, 238, 1) 95%, rgba(215, 222, 227, 1) 96%, rgba(245, 247, 249, 1) 100%); /* FF3.6-15 */
+            background: -webkit-linear-gradient(left, rgba(255, 252, 252, 1) 45%, rgba(229, 235, 238, 1) 95%, rgba(229, 235, 238, 1) 95%, rgba(215, 222, 227, 1) 96%, rgba(245, 247, 249, 1) 100%); /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to right, rgba(255, 252, 252, 1) 45%, rgba(229, 235, 238, 1) 95%, rgba(229, 235, 238, 1) 95%, rgba(215, 222, 227, 1) 96%, rgba(245, 247, 249, 1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fffcfc', endColorstr='#f5f7f9', GradientType=1); /* IE6-9 */
+
+            color: black;
+
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+            font-family: 'Parisienne', cursive;
+        }
+
+        .descr p {
+            font-family: 'Parisienne', cursive;
+            font-size: 2em !important;
+            color: black;
+        }
+
+        .descr h1 {
+            font-size: 3em !important;
+            font-family: 'Parisienne', cursive;
+            color: black;
+        }
+
+        #logo img {
+            width: 35%;
+            display: inline;
+            float: left;
+            position: absolute;
+            top: -1%;
+            left: 3%;
+        }
+
+        .lead {
+            margin-bottom: 1.5vw;
+        }
+
+        @media screen and (max-width: 990px) {
+            .descr {
+                font-size: .8em !important;
+            }
+        }
+
+        @media screen and (max-width: 767px) {
+
+            .row > div {
+                margin: 0;
+                padding: 0;
+            }
+
+            .row > div > img {
+                margin: 0 !important;
+                padding: 0;
+            }
+
+            .descr {
+                font-size: 1em;
+            }
+
+            .horizontal-list-ul {
+                margin-top: 1.5em;
+                float: right;
+            }
+
+            .horizontal-list {
+
+                background: transparent;
+                outline: 2px solid transparent;
+                margin: 0 1em 0 5em;
+                display: block !important;
+                clear: right !important;
+                text-align: right;
+                float: right !important;
+                border: 0;
+                transition: all 0.3s ease 0s;
+            }
+
+            #logo img {
+                width: 75%;
+            }
+        }
+
+        @media screen and (max-width: 767px) {
+            .descr {
+                font-size: 1.8vw !important;
+            }
+        }
+
+    </style>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <script>
+        $('.carousel').carousel();
+    </script>
+</head>
+
+<body>
+
+<div class="carousel slide carousel-fade" data-ride="carousel">
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+        </div>
+        <div class="item">
+        </div>
+        <div class="item">
+        </div>
+        <div class="item">
+        </div>
+    </div>
+</div>
+<h1 id="logo">Michelle's Kitchen</h1>
+<!-- Navigation -->
+<nav class="navbar navbar-static-top" role="navigation">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" style="padding-top:0;margin-top:0">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="glyphicon glyphicon-download" style="font-size: 38px;"></span>
+            </button>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav horizontal-list-ul">
+                <li class="horizontal-list">
+                    <a href="#" class="btn-nav" data-toggle="modal" data-target="#myModal">RESERVATIONS</a>
+                </li>
+                <li class="horizontal-list">
+                    <a href="/contact.html" class="btn-nav">CONTACT</a>
+                </li>
+                <li class="horizontal-list">
+                    <a href="/classes.html" class="btn-nav">CLASSES</a>
+                </li>
+                <li class="horizontal-list">
+                    <a href="/about.html" class="btn-nav">ABOUT</a>
+                </li>
+                <li class="horizontal-list">
+                    <a href="/index.php" class="btn-nav">HOME</a>
+                </li>
+            </ul
+
+                    <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+</nav>
+<!-- Page Content -->
+<div class="container-fluid">
+
+    <div class="row">
+        <div class="col-sm-4">
+            <img src="images/headshot.jpg"
+                 style="width:100%;margin:6vw 0 0 8%; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.6);">
+        </div>
+        <div class="col-sm-8 descr">
+            <img src="images/page-bg.png" style="position:absolute !important;width:98%; margin:0 2% 0 0;">
+            <div style="position:absolute;width:90%; margin:8% 5% 0 7%;padding-right:2.9vw;">
+                <h1 style="text-align:center;margin:0 4% 2% 0;border-bottom: 0px solid #eebc11;">Meet Michelle</h1>
+                <div class="sexy_line"></div>
+                <p class="lead">
+                    Michelle’s Kitchen is a cooking class focused on fun, hands-on meal preparation where the guest
+                    learns the art of cuisine and enjoys a two course meal together.
+                </p>
+                <p class="lead">
+                    An intimate group of three to six people is led by Michelle as she teaches California-style cuisine,
+                    based on French techniques.
+                </p>
+                <p class="lead">
+                    Michelle’s Kitchen is a unique experience in a historic residence, where guests are treated to a
+                    culinary education that includes a gourmet meal paired with wine.
+                </p>
+                <p class="lead">
+                    Michelle’s love of cooking led her to Le Cordon Bleu, College of Culinary Arts. The joy of teaching
+                    started her cooking classes in 2011.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div style="position:fixed;bottom:12px;">
+        <a class="btn icon-btn btn-primary " data-toggle="modal" data-target="#gcModal">
+            <span class="glyphicon btn-glyphicon glyphicon-gift img-circle text-primary" style="color:white;"></span>Gift Cards</a>
+    </div>
+    <div style="position:fixed;bottom:50px;">
+        <a class="btn icon-btn" href="https://www.facebook.com/michelleskitchenorange/" target="_blank" >
+            <span class="glyphicon btn-glyphicon img-circle text-primary fa fa-facebook fa-lg" style="color:white;"></span>
+        </a>
+    </div>
+
+    <div style="position:fixed;bottom:90px;">
+        <a class="btn icon-btn" href="https://www.instagram.com/Michelles.teaching.kitchen/" target="_blank">
+            <span class="glyphicon btn-glyphicon img-circle text-primary fa fa-instagram fa-lg" style="color:white;"></span>
+        </a>
+    </div>
+
+    <div id="gcModal" class="modal fade" role="dialog">
+        <div class="modal-dialog" style="">
+
+            <!-- Modal content-->
+            <div class="modal-content" style="color:black;background-color:#fecddf;">
+                <div class="modal-body" style="font-size:1.2em;">
+                    <h4 style="text-align:center; font-size:2em;font-family: 'Parisienne', cursive; text-align:center;">
+                        Michelle's Kitchen Gift Cards</h4>
+                    <h4 style="text-align:center; font-size:1em;padding:2vw 1vw;">Gift Cards of any denomination are
+                        available to purchase for friends and loved ones! Payments can be mailed via check or payed over
+                        the phone via credit card. Gift cards expire 1 year after issuance. (See contact page for
+                        details)</h4>
+                    <h4 style="text-align:center; font-size:1.5em;font-family: 'Parisienne', cursive;">"People who love
+                        to eat are always the best people"<br>-Julia Child</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- /.container -->
+
+<!-- jQuery Version 1.11.1 -->
+<script src="bootstrap/js/jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+</body>
+
+<div id="myModal" class="modal fade" role="dialog">
+    <div class="modal-dialog" style="">
+
+        <!-- Modal content-->
+        <div class="modal-content" style="color:black;background-color:#fecddf;">
+            <div class="modal-body" style="font-size:1.2em;">
+                <h4 style="text-align:center; font-size:2em;font-family: 'Parisienne', cursive; text-align:center;padding-top:1.5vw;">
+                    Michelle's Kitchen Calendar</h4>
+                <img src="images/spoon.png"
+                     style="width:80%;display: block;margin-left: auto;margin-right: auto;padding:1vw 0;">
+                <h4 style="text-align:center; font-size:1.5em;font-family: 'Parisienne', cursive;">Available class
+                    times</h4>
+                <iframe src="https://calendar.google.com/calendar/embed?mode=AGENDA&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=8gss9udedvth5mhh87nm55q0os%40group.calendar.google.com&amp;color=%23182C57&amp;ctz=America%2FLos_Angeles"
+                        style="border-width:0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
+                <script type="text/javascript" src="https://form.jotform.com/jsform/63299216659166"></script>
+            </div>
+        </div>
+    </div>
+</div>
+
+</html>
